@@ -61,19 +61,49 @@ namespace TB.ANALYSTE.Exos.page148
             //    result = result * i; 
             //}
 
-            int number, i;
-            Console.WriteLine("Veuillez entrer un nombre :");
-            number = int.Parse(Console.ReadLine());
-            i = number;
-            while (i > 2)
-            {
-                number *= --i;
-            }
-            Console.WriteLine(number);
+            ////SOLUTION 2
+
+            //int number, i;
+            //Console.WriteLine("Veuillez entrer un nombre :");
+            //number = int.Parse(Console.ReadLine());
+            //i = number;
+            //while (i > 2)
+            //{
+            //    number *= --i;
+            //}
+            //Console.WriteLine(number);
 
             #endregion
 
+            #region Exercice_03 - Nombres premiers
 
+            //Console.WriteLine("Veuillez indiquer le nombre de nombres premiers souhaité :");
+            //int limit = int.Parse(Console.ReadLine());
+
+            //for (int count = 0, value = 2; count < limit; value++)
+            //{
+            //    bool isPrime = true;
+            //    for (int i = 2; i < value && isPrime; i++)
+            //    {
+            //        if (value % i == 0) isPrime = false;
+            //    }
+            //    if (isPrime)
+            //    {
+            //        Console.WriteLine(value);
+            //        count++;
+            //    }
+            //}
+
+            #endregion
+
+            #region Exercice_05 - Boucle de double
+
+            for (double i = 0; i < 20.0; i += 0.1)
+            {
+                Console.WriteLine(i);
+            }
+
+            #endregion
         }
     }
 }

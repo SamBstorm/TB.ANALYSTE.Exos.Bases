@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.ANALYSTE.Exos.page138", "TB.ANALYSTE.Exos.Bases\TB.ANALYSTE.Exos.page138.csproj", "{6280C638-1617-4462-9126-A63F1EDC96B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TB.ANALYSTE.Exos.page138", "TB.ANALYSTE.Exos.Bases\TB.ANALYSTE.Exos.page138.csproj", "{6280C638-1617-4462-9126-A63F1EDC96B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.ANALYSTE.Exos.page148", "TB.ANALYSTE.Exos.page148\TB.ANALYSTE.Exos.page148.csproj", "{DA45464F-71A3-44B8-9B46-45CBE4A5F093}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6280C638-1617-4462-9126-A63F1EDC96B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6280C638-1617-4462-9126-A63F1EDC96B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6280C638-1617-4462-9126-A63F1EDC96B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA45464F-71A3-44B8-9B46-45CBE4A5F093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA45464F-71A3-44B8-9B46-45CBE4A5F093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA45464F-71A3-44B8-9B46-45CBE4A5F093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA45464F-71A3-44B8-9B46-45CBE4A5F093}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
